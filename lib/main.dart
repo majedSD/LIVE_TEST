@@ -1,4 +1,9 @@
-import 'package:flutter/foundation.dart';
+/**
+ *-----------------MAJEDUL ISLAM-----------------
+ * ----------------FLUTTER LIVE TEST--------------
+ * ----------------MODULE-5-----------------------
+*/
+
 import 'package:flutter/material.dart';
 void main(){
   runApp(const MyApp());
@@ -22,6 +27,7 @@ class HomeActivity extends StatelessWidget{
         title: Text('Home page'),
         leading: Icon(Icons.message),
         backgroundColor: Colors.green,
+        centerTitle: true,
       ),
       body: Center(
         child: Text('Hello world'),
